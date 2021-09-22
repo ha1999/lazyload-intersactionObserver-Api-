@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #e70303;
 }
 
 .App-link {
@@ -35,4 +35,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+form{
+  width: 50%;
+  margin: auto;
+}
+label {
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #61dafb;
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  color: white !important;
+}
+textarea {
+  color: white !important;
+}
+span {
+  font-size: 1.2rem;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  margin-left: 50px ;
+}
+li.active {
+  border-bottom: 3px solid yellow;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: darkcyan;
+}
+
+a.active {
+  color: #61dafb;
 }
